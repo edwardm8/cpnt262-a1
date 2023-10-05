@@ -6,11 +6,11 @@ document.getElementById("original-number").innerHTML = number;
 document.getElementById("original-string").innerHTML = word;
 
 //add 2 deimcal places
-number=number.toFixed(2);
+number = number.toFixed(2);
 document.getElementById("add-decimal").innerHTML = number
 
 //convert number to string
-number= number.toString();
+number = number.toString();
 document.getElementById("string-num").innerHTML = number;
 
 //check if number is a integer
